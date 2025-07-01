@@ -1,0 +1,327 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="6120" height="1300">
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="context-stroke"/>
+    </marker>
+  </defs>
+  <rect x="20" y="20" width="6080" height="1260" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="20" y="0" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Data science</text>
+  <rect x="4260" y="60" width="1800" height="1180" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="4260" y="40" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Neural Networks &amp; Deep Learning</text>
+  <rect x="2680" y="60" width="1540" height="1040" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="2680" y="40" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Machine Learning</text>
+  <rect x="1160" y="60" width="1480" height="800" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="1160" y="40" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Data Processing</text>
+  <rect x="3160" y="100" width="1020" height="820" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="3160" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Key Algorithms</text>
+  <rect x="60" y="60" width="1060" height="620" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="60" y="40" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Mathematics</text>
+  <rect x="1880" y="100" width="720" height="720" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="1880" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Visualization</text>
+  <rect x="4300" y="100" width="400" height="1100" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="4300" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Basics</text>
+  <rect x="2720" y="100" width="400" height="960" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="2720" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Basics</text>
+  <rect x="5180" y="100" width="400" height="720" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="5180" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Architectures</text>
+  <rect x="4740" y="100" width="400" height="620" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="4740" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Tools</text>
+  <rect x="5620" y="100" width="400" height="620" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="5620" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Advanced Topics</text>
+  <rect x="3840" y="140" width="300" height="740" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="3840" y="120" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Metrics</text>
+  <rect x="1200" y="100" width="300" height="640" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="1200" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">NumPy</text>
+  <rect x="1540" y="100" width="300" height="640" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="1540" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Pandas</text>
+  <rect x="1920" y="140" width="300" height="640" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="1920" y="120" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Static</text>
+  <rect x="2260" y="140" width="300" height="640" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="2260" y="120" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Interactive</text>
+  <rect x="100" y="100" width="300" height="540" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="100" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Linear Algebra</text>
+  <rect x="440" y="100" width="300" height="540" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="440" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Statistics</text>
+  <rect x="780" y="100" width="300" height="440" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="780" y="80" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Calculus</text>
+  <rect x="4340" y="820" width="300" height="340" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="4340" y="800" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Optimizers</text>
+  <rect x="4790" y="140" width="300" height="340" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="4790" y="120" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">PyTorch</text>
+  <rect x="2760" y="140" width="320" height="240" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="2760" y="120" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Supervised learning</text>
+  <rect x="3480" y="140" width="320" height="240" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="3480" y="120" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Gradient boosting</text>
+  <rect x="3480" y="420" width="320" height="240" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="3480" y="400" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Clustering</text>
+  <rect x="5670" y="340" width="310" height="240" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="5670" y="320" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Generative models</text>
+  <rect x="2760" y="420" width="320" height="230" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="2760" y="400" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Unsupervised learning</text>
+  <rect x="4340" y="340" width="300" height="240" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="4340" y="320" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Activation functions</text>
+  <rect x="5230" y="240" width="300" height="240" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="5230" y="220" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Time series, text</text>
+  <rect x="5230" y="530" width="300" height="240" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="5230" y="510" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">NLP</text>
+  <rect x="2760" y="880" width="320" height="140" rx="8" ry="8" fill="#EEEEEE" stroke="#888888" fill-opacity="0.25" stroke-width="1"/>
+  <text x="2760" y="860" text-anchor="left" dominant-baseline="hanging" font-family="Arial" font-size="18">Tools</text>
+  <rect x="1580" y="440" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1690.0" y="470.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">groupby</text>
+  <rect x="1580" y="340" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1690.0" y="370.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Filtering</text>
+  <rect x="1580" y="540" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1690.0" y="570.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Pivot tables</text>
+  <rect x="1580" y="640" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1690.0" y="670.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Aggregation</text>
+  <rect x="1240" y="340" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1350.0" y="370.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Slicing</text>
+  <rect x="820" y="240" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="930.0" y="270.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Gradients</text>
+  <rect x="820" y="340" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="930.0" y="370.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Optimization</text>
+  <rect x="820" y="140" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="930.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Derivatives</text>
+  <rect x="820" y="440" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="930.0" y="470.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Integrals</text>
+  <rect x="1580" y="140" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1690.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">DataFrame</text>
+  <rect x="1240" y="440" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1350.0" y="470.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Reshaping</text>
+  <rect x="1580" y="240" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1690.0" y="270.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Series</text>
+  <rect x="1240" y="540" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1350.0" y="570.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Matrix operations</text>
+  <rect x="1240" y="240" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1350.0" y="270.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Indexing</text>
+  <rect x="1240" y="140" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1350.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">ndarray</text>
+  <rect x="1240" y="640" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="1350.0" y="670.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Broadcasting</text>
+  <rect x="140" y="140" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="250.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Vectors</text>
+  <rect x="140" y="240" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="250.0" y="270.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Matrices</text>
+  <rect x="140" y="340" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="250.0" y="370.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Dot product</text>
+  <rect x="140" y="440" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="250.0" y="470.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Norms</text>
+  <rect x="140" y="540" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="250.0" y="570.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Eigenvalues</text>
+  <rect x="480" y="240" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="590.0" y="270.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Mean</text>
+  <rect x="480" y="340" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="590.0" y="370.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Variance</text>
+  <rect x="480" y="440" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="590.0" y="470.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Correlation</text>
+  <rect x="480" y="540" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="590.0" y="570.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Hypothesis testing</text>
+  <rect x="480" y="140" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="590.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Distributions</text>
+  <rect x="3880" y="280" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3990.0" y="310.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">MAE</text>
+  <rect x="3520" y="280" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3640.0" y="310.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">LightGBM</text>
+  <rect x="3880" y="180" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3990.0" y="210.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">MSE</text>
+  <rect x="3520" y="180" width="240" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3640.0" y="210.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">XGBoost</text>
+  <rect x="4380" y="380" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="410.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">ReLU</text>
+  <rect x="4380" y="480" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="510.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Sigmoid</text>
+  <rect x="4380" y="620" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="650.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Backpropagation</text>
+  <rect x="4380" y="720" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="750.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Loss functions</text>
+  <rect x="4380" y="860" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="890.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">SGD</text>
+  <rect x="4380" y="960" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="990.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Adam</text>
+  <rect x="4380" y="1060" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="1090.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">RMSprop</text>
+  <rect x="4380" y="140" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Perceptrons</text>
+  <rect x="4380" y="240" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4490.0" y="270.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Layers</text>
+  <rect x="4830" y="180" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4940.0" y="210.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Tensors</text>
+  <rect x="3880" y="480" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3990.0" y="510.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Precision</text>
+  <rect x="3880" y="580" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3990.0" y="610.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Recall</text>
+  <rect x="3880" y="780" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3990.0" y="810.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">ROC-AUC</text>
+  <rect x="3880" y="680" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3990.0" y="710.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">F1-score</text>
+  <rect x="3200" y="380" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3320.0" y="410.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Decision trees</text>
+  <rect x="3880" y="380" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3990.0" y="410.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Accuracy</text>
+  <rect x="3200" y="480" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3320.0" y="510.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Random forests</text>
+  <rect x="3520" y="460" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3640.0" y="490.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">k-means</text>
+  <rect x="3520" y="560" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3640.0" y="590.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">DBSCAN</text>
+  <rect x="3200" y="680" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3320.0" y="710.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">k-NN</text>
+  <rect x="3200" y="580" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3320.0" y="610.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">SVM</text>
+  <rect x="3200" y="280" width="240" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3320.0" y="310.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Logistic regression</text>
+  <rect x="3200" y="180" width="240" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="3320.0" y="210.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Linear regression</text>
+  <rect x="5710" y="240" width="230" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5825.0" y="270.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Fine-tuning</text>
+  <rect x="5710" y="380" width="230" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5825.0" y="410.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">GANs</text>
+  <rect x="5710" y="480" width="230" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5825.0" y="510.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">VAEs</text>
+  <rect x="5270" y="380" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5380.0" y="410.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">LSTMs</text>
+  <rect x="5270" y="570" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5380.0" y="600.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">BERT</text>
+  <rect x="5270" y="670" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5380.0" y="700.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">GPT</text>
+  <rect x="5710" y="620" width="230" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5825.0" y="650.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Reinforcement learning</text>
+  <rect x="5710" y="140" width="230" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5825.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Transfer learning</text>
+  <rect x="5270" y="280" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5380.0" y="310.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">RNNs</text>
+  <rect x="4830" y="280" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4940.0" y="310.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">autograd</text>
+  <rect x="4830" y="380" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4940.0" y="410.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Model building</text>
+  <rect x="4830" y="520" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4940.0" y="550.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">TensorFlow</text>
+  <rect x="4830" y="620" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="4940.0" y="650.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Keras</text>
+  <rect x="5270" y="140" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="5380.0" y="170.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">CNNs for images</text>
+  <rect x="2800" y="680" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2920.0" y="710.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Overfitting/underfitting</text>
+  <rect x="2800" y="460" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2920.0" y="490.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Clustering</text>
+  <rect x="2800" y="780" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2920.0" y="810.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Cross-validation</text>
+  <rect x="2800" y="560" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2920.0" y="590.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Dimensionality reduction</text>
+  <rect x="2800" y="180" width="240" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2920.0" y="210.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Regression</text>
+  <rect x="2300" y="580" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2410.0" y="610.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Finance</text>
+  <rect x="2300" y="680" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2410.0" y="710.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Maps</text>
+  <rect x="2300" y="280" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2410.0" y="310.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Basic</text>
+  <rect x="2300" y="180" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2410.0" y="210.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Plotly</text>
+  <rect x="2300" y="380" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2410.0" y="410.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Statistics</text>
+  <rect x="2300" y="480" width="220" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2410.0" y="510.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Science</text>
+  <rect x="2800" y="280" width="240" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2920.0" y="310.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Classification</text>
+  <rect x="2800" y="920" width="240" height="60" rx="8" ry="8" fill="#aa363d" stroke="#aa363d" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2920.0" y="950.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Scikit-learn</text>
+  <rect x="1960" y="280" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2070.0" y="310.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Bar charts</text>
+  <rect x="1960" y="180" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2070.0" y="210.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Line plots</text>
+  <rect x="1960" y="380" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2070.0" y="410.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Histograms</text>
+  <rect x="1960" y="680" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2070.0" y="710.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Distributions</text>
+  <rect x="1960" y="580" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2070.0" y="610.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Pairplots</text>
+  <rect x="1960" y="480" width="220" height="60" rx="8" ry="8" fill="#aba960" stroke="#aba960" fill-opacity="0.25" stroke-width="2"/>
+  <text x="2070.0" y="510.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="18">Heatmaps</text>
+  <path d="M 250.0 200 L 250.0 240" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 250.0 300 L 250.0 340" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 250.0 400 L 250.0 440" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 250.0 500 L 250.0 540" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 360 570.0 C 525 437 315 303 480 170.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 590.0 200 L 590.0 240" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 590.0 300 L 590.0 340" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 590.0 400 L 590.0 440" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 590.0 500 L 590.0 540" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 700 570.0 C 865 437 655 303 820 170.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 930.0 200 L 930.0 240" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 930.0 300 L 930.0 340" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 930.0 400 L 930.0 440" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1040 470.0 C 1215 370 1065 270 1240 170.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1350.0 200 L 1350.0 240" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1350.0 300 L 1350.0 340" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1350.0 400 L 1350.0 440" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1350.0 500 L 1350.0 540" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1350.0 600 L 1350.0 640" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1460 670.0 C 1654 503 1386 337 1580 170.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1690.0 200 L 1690.0 240" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1690.0 300 L 1690.0 340" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1690.0 400 L 1690.0 440" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1690.0 500 L 1690.0 540" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1690.0 600 L 1690.0 640" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 1800 670.0 C 1999 517 1761 363 1960 210.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2070.0 240 L 2070.0 280" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2070.0 340 L 2070.0 380" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2070.0 440 L 2070.0 480" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2070.0 540 L 2070.0 580" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2070.0 640 L 2070.0 680" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2180 710.0 C 2374 543 2106 377 2300 210.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2410.0 240 L 2410.0 280" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2410.0 340 L 2410.0 380" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2410.0 440 L 2410.0 480" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2410.0 540 L 2410.0 580" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2410.0 640 L 2410.0 680" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2520 710.0 C 2768 543 2552 377 2800 210.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2920.0 240 L 2920.0 280" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2920.0 340 L 2920.0 460" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2920.0 520 L 2920.0 560" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2920.0 620 L 2920.0 680" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2920.0 740 L 2920.0 780" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 2920.0 840 L 2920.0 920" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3040 950.0 C 3248 703 2992 457 3200 210.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3320.0 240 L 3320.0 280" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3320.0 340 L 3320.0 380" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3320.0 440 L 3320.0 480" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3320.0 540 L 3320.0 580" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3320.0 640 L 3320.0 680" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3440 710.0 C 3619 543 3341 377 3520 210.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3640.0 240 L 3640.0 280" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3640.0 340 L 3640.0 460" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3640.0 520 L 3640.0 560" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3760 590.0 C 3920 463 3720 337 3880 210.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3990.0 240 L 3990.0 280" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3990.0 340 L 3990.0 380" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3990.0 440 L 3990.0 480" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3990.0 540 L 3990.0 580" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3990.0 640 L 3990.0 680" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 3990.0 740 L 3990.0 780" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4100 810.0 C 4348 597 4132 383 4380 170.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4490.0 200 L 4490.0 240" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4490.0 300 L 4490.0 380" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4490.0 440 L 4490.0 480" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4490.0 540 L 4490.0 620" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4490.0 680 L 4490.0 720" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4490.0 780 L 4490.0 860" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4490.0 920 L 4490.0 960" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4490.0 1020 L 4490.0 1060" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4600 1090.0 C 4832 797 4598 503 4830 210.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4940.0 240 L 4940.0 280" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4940.0 340 L 4940.0 380" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4940.0 440 L 4940.0 520" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 4940.0 580 L 4940.0 620" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5050 650.0 C 5278 490 5042 330 5270 170.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5380.0 200 L 5380.0 280" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5380.0 340 L 5380.0 380" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5380.0 440 L 5380.0 570" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5380.0 630 L 5380.0 670" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5490 700.0 C 5718 523 5482 347 5710 170.0" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5825.0 200 L 5825.0 240" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5825.0 300 L 5825.0 380" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5825.0 440 L 5825.0 480" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+  <path d="M 5825.0 540 L 5825.0 620" stroke="#795fac" fill="none" marker-end="url(#arrow)" stroke-width="2"/>
+</svg>
