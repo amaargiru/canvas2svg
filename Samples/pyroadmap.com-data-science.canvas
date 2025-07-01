@@ -116,8 +116,7 @@
 		{"id":"7514a2d791f26c4c","type":"text","text":"Histograms","x":1600,"y":100,"width":220,"height":60,"color":"3"},
 		{"id":"cdafbab5a1a3fe9e","type":"text","text":"Distributions","x":1600,"y":400,"width":220,"height":60,"color":"3"},
 		{"id":"ed8d15da8fbaaefb","type":"text","text":"Pairplots","x":1600,"y":300,"width":220,"height":60,"color":"3"},
-		{"id":"83f51ce855a0b7a9","type":"text","text":"Heatmaps","x":1600,"y":200,"width":220,"height":60,"color":"3"},
-		{"id":"5c94bc3386ce9679","type":"text","text":"pyroadmap.com\ngithub.com/amaargiru/pyroad","x":-300,"y":900,"width":280,"height":60,"color":"6"}
+		{"id":"83f51ce855a0b7a9","type":"text","text":"Heatmaps","x":1600,"y":200,"width":220,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"46ee5c89f0376089","fromNode":"81a8cb9aaf2d474d","fromSide":"bottom","toNode":"b369ece0398a2f01","toSide":"top","color":"6"},

@@ -14,7 +14,6 @@
 		{"id":"ab005be054b36319","type":"text","text":"Thread","x":-260,"y":-180,"width":220,"height":60,"color":"4"},
 		{"id":"f3676fca6c04aa78","type":"text","text":"Thread pool executor","x":-260,"y":-80,"width":220,"height":60,"color":"4"},
 		{"id":"4c55a41ca0cca5b2","type":"text","text":"Timer","x":-260,"y":20,"width":220,"height":60,"color":"3"},
-		{"id":"9f4d63b86979178e","type":"text","text":"pyroadmap.com\ngithub.com/amaargiru/pyroad","x":1500,"y":480,"width":280,"height":60,"color":"6"},
 		{"id":"730708bebb42c9c2","type":"text","text":"Value","x":1240,"y":120,"width":160,"height":60,"color":"3"},
 		{"id":"a24fefd0da12041f","type":"text","text":"Manager","x":1240,"y":320,"width":160,"height":60,"color":"1"},
 		{"id":"c3b581e0219211d5","type":"text","text":"Listener","x":1240,"y":420,"width":160,"height":60,"color":"1"},
