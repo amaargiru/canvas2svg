@@ -88,9 +88,9 @@ def main():
                                            x=str(x),
                                            y=str(y - 20),
                                            **{'text-anchor': 'left',
-                                         'dominant-baseline': 'hanging',
-                                         'font-family': 'Arial',
-                                         'font-size': '18'})
+                                              'dominant-baseline': 'hanging',
+                                              'font-family': 'Arial',
+                                              'font-size': '18'})
             text_elem.text = node['label']
 
     # Draw cards
@@ -113,9 +113,9 @@ def main():
                                        x=str(x + width / 2),
                                        y=str(y + height / 2),
                                        **{'text-anchor': 'middle',
-                                     'dominant-baseline': 'middle',
-                                     'font-family': 'Arial',
-                                     'font-size': '18'})
+                                          'dominant-baseline': 'middle',
+                                          'font-family': 'Arial',
+                                          'font-size': '18'})
         text_elem.text = node.get('text', '')
 
     # Draw edges
@@ -142,16 +142,16 @@ def main():
             # Determining the dominant direction
             if abs(dx_line) > abs(dy_line):
                 # Horizontally oriented line: bend vertically
-                cp1x = start_x + dx_line / 3
-                cp1y = start_y + dy_line / 3 + bend
-                cp2x = end_x - dx_line / 3
-                cp2y = end_y - dy_line / 3 - bend
+                cp1x = round(start_x + dx_line / 3)
+                cp1y = round(start_y + dy_line / 3 + bend)
+                cp2x = round(end_x - dx_line / 3)
+                cp2y = round(end_y - dy_line / 3 - bend)
             else:
                 # Vertically oriented line: horizontal bend
-                cp1x = start_x + dx_line / 3 + bend
-                cp1y = start_y + dy_line / 3
-                cp2x = end_x - dx_line / 3 - bend
-                cp2y = end_y - dy_line / 3
+                cp1x = round(start_x + dx_line / 3 + bend)
+                cp1y = round(start_y + dy_line / 3)
+                cp2x = round(end_x - dx_line / 3 - bend)
+                cp2y = round(end_y - dy_line / 3)
 
             path_data = f"M {start_x} {start_y} C {cp1x} {cp1y} {cp2x} {cp2y} {end_x} {end_y}"
 
