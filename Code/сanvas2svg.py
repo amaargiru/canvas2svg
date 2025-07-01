@@ -128,8 +128,35 @@ def main():
 
         color = get_color(edge.get('color', 'default'))
 
+        # Checking for strict horizontal/vertical
+        if start_x == end_x or start_y == end_y:
+            path_data = f"M {start_x} {start_y} L {end_x} {end_y}"
+        else:
+            dx_line = end_x - start_x
+            dy_line = end_y - start_y
+            length = (dx_line ** 2 + dy_line ** 2) ** 0.5
+
+            # Adaptive bending value
+            bend = max(10, min(155, length * 0.3))
+
+            # Determining the dominant direction
+            if abs(dx_line) > abs(dy_line):
+                # Horizontally oriented line: bend vertically
+                cp1x = start_x + dx_line / 3
+                cp1y = start_y + dy_line / 3 + bend
+                cp2x = end_x - dx_line / 3
+                cp2y = end_y - dy_line / 3 - bend
+            else:
+                # Vertically oriented line: horizontal bend
+                cp1x = start_x + dx_line / 3 + bend
+                cp1y = start_y + dy_line / 3
+                cp2x = end_x - dx_line / 3 - bend
+                cp2y = end_y - dy_line / 3
+
+            path_data = f"M {start_x} {start_y} C {cp1x} {cp1y} {cp2x} {cp2y} {end_x} {end_y}"
+
         XmlTree.SubElement(svg, 'path',
-                           d=f"M {start_x} {start_y} L {end_x} {end_y}",
+                           d=path_data,
                            stroke=color,
                            fill='none',
                            **{'marker-end': 'url(#arrow)',
