@@ -1,19 +1,25 @@
 import json
+import os
 import sys
-import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as XmlTree
+from pathlib import Path
 from xml.dom import minidom
 
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python script.py input.canvas")
+        print("Usage: python сanvas2svg.py input.canvas")
         sys.exit(1)
 
     input_file = sys.argv[1]
-    output_file = 'output.svg'
+    output_file = Path(input_file).stem + '.svg'
 
-    with open(input_file, 'r') as f:
-        data = json.load(f)
+    if os.path.exists(input_file):  # If file exists in app directory
+        with open(input_file, 'r') as f:
+            data = json.load(f)
+    else:
+        print(f"File {input_file} doesn't exist in app directory")
+        sys.exit(1)
 
     nodes = data['nodes']
     edges = data['edges']
@@ -30,21 +36,21 @@ def main():
     svg_width = max_x - min_x + 2 * padding
     svg_height = max_y - min_y + 2 * padding
 
-    svg = ET.Element('svg', xmlns="http://www.w3.org/2000/svg", width=str(svg_width), height=str(svg_height))
+    svg = XmlTree.Element('svg', xmlns="http://www.w3.org/2000/svg", width=str(svg_width), height=str(svg_height))
 
     # Arrow
-    defs = ET.SubElement(svg, 'defs')
-    marker = ET.SubElement(defs, 'marker',
-                           id='arrow',
-                           viewBox='0 0 12 12',
-                           refX='10',
-                           refY='6',
-                           markerWidth='8',
-                           markerHeight='8',
-                           orient='auto')
-    ET.SubElement(marker, 'path',
-                  d='M0,0 L12,6 L0,12 Z',
-                  fill='context-stroke')
+    defs = XmlTree.SubElement(svg, 'defs')
+    marker = XmlTree.SubElement(defs, 'marker',
+                                id='arrow',
+                                viewBox='0 0 12 12',
+                                refX='10',
+                                refY='6',
+                                markerWidth='8',
+                                markerHeight='8',
+                                orient='auto')
+    XmlTree.SubElement(marker, 'path',
+                       d='M0,0 L12,6 L0,12 Z',
+                       fill='context-stroke')
 
     color_map = {
         "0": '#7e7e7e',
@@ -61,48 +67,52 @@ def main():
         return color_map.get(color_code, color_map['default'])
 
     # Draw groups
-    for node in nodes:
-        if node['type'] != 'group':
-            continue
+    for node in [node for node in nodes if node['type'] == 'group']:
         x = node['x'] + dx
         y = node['y'] + dy
         width = node['width']
         height = node['height']
 
-        ET.SubElement(svg, 'rect',
-                      x=str(x), y=str(y),
-                      width=str(width), height=str(height),
-                      fill='none', stroke='black', stroke_width='2')
+        XmlTree.SubElement(svg, 'rect',
+                           x=str(x), y=str(y),
+                           width=str(width), height=str(height),
+                           rx='8', ry='8',
+                           fill='#EEEEEE',
+                           stroke='#888888',
+                           **{'fill-opacity': '0.25',
+                              'stroke-width': '1'}
+                           )
 
         if 'label' in node:
-            text_elem = ET.SubElement(svg, 'text',
-                                      x=str(x + width / 2),
-                                      y=str(y + 20),
-                                      **{'text-anchor': 'middle',
+            text_elem = XmlTree.SubElement(svg, 'text',
+                                           x=str(x),
+                                           y=str(y - 20),
+                                           **{'text-anchor': 'left',
                                          'dominant-baseline': 'hanging',
                                          'font-family': 'Arial',
                                          'font-size': '18'})
             text_elem.text = node['label']
 
-    # Draw text nodes
-    for node in nodes:
-        if node['type'] != 'text':
-            continue
+    # Draw cards
+    for node in [node for node in nodes if node['type'] == 'text']:
         x = node['x'] + dx
         y = node['y'] + dy
         width = node['width']
         height = node['height']
         color = get_color(node.get('color', 'default'))
 
-        ET.SubElement(svg, 'rect',
-                      x=str(x), y=str(y),
-                      width=str(width), height=str(height),
-                      fill=color, stroke='black', stroke_width='1')
+        XmlTree.SubElement(svg, 'rect',
+                           x=str(x), y=str(y),
+                           width=str(width), height=str(height),
+                           rx='8', ry='8',
+                           fill=color, stroke=color,
+                           **{'fill-opacity': '0.25',
+                              'stroke-width': '2'})
 
-        text_elem = ET.SubElement(svg, 'text',
-                                  x=str(x + width / 2),
-                                  y=str(y + height / 2),
-                                  **{'text-anchor': 'middle',
+        text_elem = XmlTree.SubElement(svg, 'text',
+                                       x=str(x + width / 2),
+                                       y=str(y + height / 2),
+                                       **{'text-anchor': 'middle',
                                      'dominant-baseline': 'middle',
                                      'font-family': 'Arial',
                                      'font-size': '18'})
@@ -118,15 +128,15 @@ def main():
 
         color = get_color(edge.get('color', 'default'))
 
-        ET.SubElement(svg, 'path',
-                      d=f"M {start_x} {start_y} L {end_x} {end_y}",
-                      stroke=color,
-                      stroke_width='4',
-                      fill='none',
-                      **{'marker-end': 'url(#arrow)'})
+        XmlTree.SubElement(svg, 'path',
+                           d=f"M {start_x} {start_y} L {end_x} {end_y}",
+                           stroke=color,
+                           fill='none',
+                           **{'marker-end': 'url(#arrow)',
+                              'stroke-width': '2'})
 
     # Save SVG
-    rough_xml = ET.tostring(svg, 'utf-8')
+    rough_xml = XmlTree.tostring(svg, 'utf-8')
     parsed = minidom.parseString(rough_xml)
     pretty_xml = parsed.toprettyxml(indent='  ')
 
